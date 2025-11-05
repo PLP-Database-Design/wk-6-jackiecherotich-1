@@ -45,12 +45,12 @@ npm start
 
 ### 1.4 Project Board Setup
 
-•	 Create Jira board
-•	 Configure columns:
-Backlog → To Do → In Progress → Code Review → Testing → Done
-•	 Create initial tasks for Phase 1
-•	 Invite team members
-•	 Set up labels and components
+- •	 Create Jira board
+- •	 Configure columns:
+- Backlog → To Do → In Progress → Code Review → Testing → Done
+- •	 Create initial tasks for Phase 1
+- •	 Invite team members
+- •	 Set up labels and components
 
 ### 1.5 Test Plan Documentation
 
