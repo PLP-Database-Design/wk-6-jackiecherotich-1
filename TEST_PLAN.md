@@ -115,7 +115,7 @@ npm test
 - Create test issue
 -  Move through workflow
 - verify notifications
-5. Success Criteria
+  
 Phase 1 is complete when:
 1.	 Repository is forked and cloned
 2.	Project board is created and shared
