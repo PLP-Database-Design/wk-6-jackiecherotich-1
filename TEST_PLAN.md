@@ -136,7 +136,7 @@ Phase 1 is complete when:
 |:-----------:| :----------: | :---------:| :----:|
 | Repository Setup|	Amobigold |	completed |	3/11/2025	|
 | Jira Board	| Jackline | completd	|4/11/2025|
-| Test Plan	| Team | completed |	5/11/2025 |
+| Test Plan	| Magret | completed |	5/11/2025 |
 | Final Review |	Team	| completed |	5/11/2025 |
 
 
