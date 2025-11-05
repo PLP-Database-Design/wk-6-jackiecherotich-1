@@ -63,10 +63,11 @@ Backlog → To Do → In Progress → Code Review → Testing → Done
 
 ### 2.1 Roles & Responsibilities
 
-Role	Name	Responsibilities
-Test Manager	Jackline	Oversee testing, track progress
-Risk Analyst	Magret	Identify and manage risks
-Test Executor	Amobigold	Execute tests, report issues
+| Role |	Name	| Responsibilities |
+|:--------:|:-----:|:-------:|
+| Test Manager	| Jackline|	Oversee testing, track progress |
+| Risk Analyst	| Magret	| Identify and manage risks |
+| Test Executor | Amobigold	| Execute tests, report issues |
 
 ### 2.2 Communication Plan
 
@@ -104,11 +105,12 @@ git remote -v
 ```
 
 4.2 Application
-bash
 
 ### For React version
 
+ ```bash
 npm test
+```
 
 ### Check test results
 
