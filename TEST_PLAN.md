@@ -21,11 +21,13 @@
   - [ x ] npm or yarn
   - [ x ] Git
 - [ x ] Verify installations:
+  
   ```bash
   node --version
   npm --version
   git --version
   ```
+  
 1.3 Application Verification
 HTML Version:
 •	 Open index.html in browser
@@ -94,11 +96,13 @@ Test Executor	Amobigold	Execute tests, report issues
 ### 4. Verification Steps
 
 4.1 Repository
-bash
-### Verify Git setup
 
+```bash
+Verify Git setup
 git status
 git remote -v
+```
+
 4.2 Application
 bash
 
