@@ -4,15 +4,15 @@
 
 ### 1.1 Repository Setup
 
-- [ x] Fork the main repository to team's GitHub account
-- [x ] Clone repository locally on each of team member's machine
-- [x ] Verify repository structure from:
-  - [ x] index.html
-  - [x ] styles.css
-  - [ ] script.js
-  - [ ] src/ directory (for React version)
-  - [ ] package.json
-- [ ] Document repository access instructions
+- [ x ] Fork the main repository to team's GitHub account
+- [ x ] Clone repository locally on each of team member's machine
+- [ x ] Verify repository structure from:
+  - [ x ] index.html
+  - [ x ] styles.css
+  - [ x ] script.js
+  - [ x ] src/ directory (for React version)
+  - [ x ] package.json
+- [ x ] Document repository access instructions
 
 ### 1.2 Local Environment Setup
 
