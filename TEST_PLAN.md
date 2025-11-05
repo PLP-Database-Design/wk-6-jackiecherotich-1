@@ -45,19 +45,19 @@ npm start
 
 ### 1.4 Project Board Setup
 
-- •	 Create Jira board
-- •	 Configure columns:
+-  Create Jira board
+-  Configure columns:
 - Backlog → To Do → In Progress → Code Review → Testing → Done
-- •	 Create initial tasks for Phase 1
-- •	 Invite team members
-- •	 Set up labels and components
+-  Create initial tasks for Phase 1
+-  Invite team members
+-  Set up labels and components
 
 ### 1.5 Test Plan Documentation
 
-•	 Complete this test plan
-•	 Include all required sections
-•	 Get team approval
-•	 Upload to repository
+- Complete this test plan
+- Include all required sections
+-	 Get team approval
+-	 Upload to repository
 
 ### 2. Team Setup
 
@@ -135,11 +135,11 @@ Phase 1 is complete when:
 
 ### 6. Sign-off
 
-| Task |	Owner	| Status |	Date |	Notes |
-|:-----------:| :----------: | :---------:| :-----:| :----:|
-| Repository Setup|	Amobigold |	completed |	3/11/2025	|- |
-| Jira Board	| Jackline | completd	|4/11/2025|	- |
-| Test Plan	| Team | completed |	5/11/2025| - |
-| Final Review |	Team	| completed |	5/11/2025| - |
+| Task |	Owner	| Status |	Date |
+|:-----------:| :----------: | :---------:| :----:|
+| Repository Setup|	Amobigold |	completed |	3/11/2025	|
+| Jira Board	| Jackline | completd	|4/11/2025|
+| Test Plan	| Team | completed |	5/11/2025 |
+| Final Review |	Team	| completed |	5/11/2025 |
 
 
