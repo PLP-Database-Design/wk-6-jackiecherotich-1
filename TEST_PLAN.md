@@ -73,7 +73,7 @@ npm start
 | Tool| Purpose| Timeline| Notes| 
 |----------|-------------|-------------| -------------|
 | WhatsApp group |Daily updates | 12:00 PM EAT |Immediate issue reporting |
-| Jira | Task tracking,Bug reporting, Progress monitoring | As needed|
+| Jira | Task tracking,bug reporting, progress monitoring | As needed|
 |	Google Meet |	Weekly sync | Wednesdays 8:00 PM EAT | Quick standups|
 
 ### 3. Jira Integration
