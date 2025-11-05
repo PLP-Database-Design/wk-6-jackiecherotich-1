@@ -127,13 +127,9 @@ Phase 1 is complete when:
 
 ### 5. Timeline
 
-November 3 , 2025
-•	 Repository and environment setup
-November  , 2025
-•	 Jira board and test plan documentation
-
-November 5, 2025
-•	 Final verification and submission
+- November 3 , 2025 Repository and environment setup
+- November  , 2025 Jira board and test plan documentation
+- November 5, 2025 Final verification and submission
 
 ### 6. Sign-off
 
