@@ -115,9 +115,10 @@ npm test
 ### Check test results
 
 4.3 Jira
-•	 Create test issue
-•	 Move through workflow
-•	 Verify notifications
+
+- Create test issue
+-  Move through workflow
+- verify notifications
 5. Success Criteria
 Phase 1 is complete when:
 1.	 Repository is forked and cloned
