@@ -70,29 +70,25 @@ npm start
 | Test Executor | Amobigold	| Execute tests, report issues |
 
 ### 2.2 Communication Plan
-
-•	Tool: WhatsApp group
-•	Daily updates at 12:00 PM EAT
-•	Immediate issue reporting
-•	Tool: Jira
-•	Task tracking
-•	Bug reporting
-•	Progress monitoring
-•	Meetings:
-•	Weekly sync: Wednesdays 8:00 PM EAT (Google Meet)
-•	As needed: Quick standups
+| Tool| Purpose| Timeline| Notes| 
+|:-----:|:-------:|:----------:| :----------:|
+| WhatsApp group |Daily updates | 12:00 PM EAT |Immediate issue reporting |
+| Jira | Task tracking,Bug reporting, Progress monitoring | As needed|
+|	Google Meet |	Weekly sync | Wednesdays 8:00 PM EAT | Quick standups|
 
 ### 3. Jira Integration
 
 3.1 Setup
-•	 Create Jira project
-•	 Configure issue types
-•	 Set up workflow
-•	 Integrate with GitHub
+- Create Jira project
+- Configure issue types
+- Set up workflow
+- Integrate with GitHub
+  
 3.2 Access
-•	 Add team members
-•	 Set permissions
-•	 Verify access
+
+- Add team members
+-  Set permissions
+-  Verify access
 
 ### 4. Verification Steps
 
