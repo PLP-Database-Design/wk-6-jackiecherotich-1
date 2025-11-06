@@ -24,75 +24,66 @@ This test plan outlines the testing strategy by team Sniffer for the CleanCity W
 ## 4. Project Phases
 ### Phase 1: Planning & Setup 
 
-#### Objectives:
+#### Objectives
 - Set up local testing environment
 - Create project board
 - Complete test plan documentation
 - Define team roles and communication plan
 - Set up Jira integration
-- 
-## 1. Phase 1 Deliverables
 
-### 1.1 Repository Setup
+##### 1. Phase 1 Deliverables
 
-- [ x ] Fork the main repository to team's GitHub account
-- [ x ] Clone repository locally on each of team member's machine
-- [ x ] Verify repository structure from:
-  - [ x ] index.html
-  - [ x ] styles.css
-  - [ x ] script.js
-  - [ x ] src/ directory (for React version)
-  - [ x ] package.json
-- [ x ] Document repository access instructions
+**1.1 Repository Setup**
 
-### 1.2 Local Environment Setup
+- [x]  Fork the main repository to team's GitHub account
+- [x]  Ensure that each team member has cloned the  repository locally on their machine
+- [x]  Verify repository structure from:
+  - index.html
+  - styles.css
+  - script.js
+  - src/ directory (for React version)
+  - package.json
+- [x]  Document repository access instructions
 
-- [ x ] Install required software:
-  - [ x ] Node.js v18+
-  - [ x ] npm or yarn
-  - [ x ] Git
-- [ x ] Verify installations:
+**1.2 Local Environment Setup**
+
+- [x] Install all the required software:
+  - Node.js v18+
+  - npm or yarn
+  - Git
+- [x] Verify that installations exist:
+
   
-  ```bash
-  node --version
-  npm --version
-  git --version
-  ```
-  
-1.3 Application Verification
-HTML Version:
-•	 Open index.html in browser
-•	 Verify home page loads without errors
-•	 Check navigation between pages
-React Version:
+**1.3 Application Verification**
 
-```bash
-npm install
-npm start
-```
-•	 Verify app runs on http://localhost:3000
-•	 Check all pages load correctly
-•	 Document any setup issues
+*HTML Version:*
+- Open index.html in browser
+- Verify home page loads without errors
+- Check navigation between pages
 
-### 1.4 Project Board Setup
+*React Version:*
+- Verify app runs on http://localhost:3000
+- Check all pages load correctly
+- Document any setup issues
 
--  Create Jira board
--  Configure columns:
+**1.4 Project Board Setup**
+- [x] Create Jira board
+- [x] Configure columns:
 - Backlog → To Do → In Progress → Code Review → Testing → Done
--  Create initial tasks for Phase 1
--  Invite team members
--  Set up labels and components
+- [x] Create initial tasks for Phase 1
+- [x] Invite team members
+- [x] Set up labels and components
 
-### 1.5 Test Plan Documentation
+**1.5 Test Plan Documentation**
+- [x] Complete this test plan
+- [x] Include all required sections
+- [x] Get team approval
+- [x] Upload to repository
+- [x] Team Double check and make final changes
 
-- Complete this test plan
-- Include all required sections
--	 Get team approval
--	 Upload to repository
+### 5. Team Setup
 
-### 2. Team Setup
-
-### 2.1 Roles & Responsibilities
+#### 5.1 Roles & Responsibilities
 
 | Role |	Name	| Responsibilities |
 |:--------:|:-----:|:-------:|
@@ -100,52 +91,44 @@ npm start
 | Risk Analyst	| Magret	| Identify and manage risks |
 | Test Executor | Amobigold	| Execute tests, report issues |
 
-### 2.2 Communication Plan
+#### 5.2 Communication Plan
 | Tool| Purpose| Timeline| Notes| 
 |----------|-------------|-------------| -------------|
-| WhatsApp group |Daily updates | 12:00 PM EAT |Immediate issue reporting |
+| WhatsApp group |Daily updates | Anytime |Immediate issue reporting |
 | Jira | Task tracking,bug reporting, progress monitoring | As needed|
-|	Google Meet |	Weekly sync | Wednesdays 8:00 PM EAT | Quick standups|
+|	Google Meet |	Weekly sync | Fridays, Sundays, Tuesdays 5:00 PM EAT/2:00 PM WAT | Quick standups|
 
-### 3. Jira Integration
+### 6. Jira Integration
 
-3.1 Setup
-- Create Jira project
-- Configure issue types
-- Set up workflow
-- Integrate with GitHub
+#### 6.1 Setup
+- [x] Create Jira project
+- [x] Configure issue types and workflow
+- [x] Set up GitHub integration
+- [x] Configure notification schemes
   
-3.2 Access
+#### 6.2 Access
 
-- Add team members
--  Set permissions
--  Verify access
+- [x] Add team members
+- [x] Set permissions
+- [x] Verify all members can access and use Jira
 
-### 4. Verification Steps
+### 7. Repository Access Instructions
 
-4.1 Repository
+#### 7.1 Access Details
+- **Repository URL**: [https://github.com/PLP-Database-Design/wk-6-jackiecherotich-1.git](The repository we are using as members)
+- **Access Level**: All team members have been granted contributor access
+- **Branching Strategy**:
+  - `main` - Production-ready code
+  - `develop` - Development branch
+  - `feature/*` - Feature branches
+  - `bugfix/*` - Bug fix branches
 
-```bash
-Verify Git setup
-git status
-git remote -v
-```
+#### 7.2 Team Members with Access
+1. Jackline (Test Manager)
+2. Amobigold (Test Executor)
+3. Magret (Risk Analyst)
 
-4.2 Application
-
-### For React version
-
- ```bash
-npm test
-```
-
-### Check test results
-
-4.3 Jira
-
-- Create test issue
--  Move through workflow
-- verify notifications
+### 8. Check test results
   
 Phase 1 is complete when:
 1.	 Repository is forked and cloned
@@ -155,14 +138,15 @@ Phase 1 is complete when:
 5.	Communication plan is set
 6.	 Jira integration works
 
-### 5. Timeline
+#### 8.1 Phase 1 Timeline
 
 - November 3 , 2025 Repository and environment setup
-- November  , 2025 Jira board and test plan documentation
+- November 4 , 2025 Jira board and test plan documentation
 - November 5, 2025 Final verification and submission
 
-### 6. Sign-off
+### 9.  Sign-off
 
+### Phase 1 Completion
 | Task |	Owner	| Status |	Date |
 |:-----------:| :----------: | :---------:| :----:|
 | Repository Setup|	Amobigold |	completed |	3/11/2025	|
@@ -170,4 +154,21 @@ Phase 1 is complete when:
 | Test Plan	| Magret | completed |	5/11/2025 |
 | Final Review |	Team	| completed |	5/11/2025 |
 
+### Phase 2 Completion
+| Task |	Owner	| Status |	Date |
+|:-----------:| :----------: | :---------:| :----:|
+| Repository Setup|	Amobigold |	completed |	|
+| Jira Board	| Jackline | completd	| |
+| Test Plan	| Magret | completed |	 |
+| Final Review |	Team	| completed |	|
+
+### Final Sign-off
+| Role | Name | Signature | Date |
+|------|------|-----------|------|
+| Test Manager | Jackline |  |  |
+| Test Executor | Amobigold |  |  |
+| Risk Analyst | Magret Faith |  |  |
+
+---
+*This test plan will be updated as needed throughout the project lifecycle. Last updated: November 6, 2025*
 
