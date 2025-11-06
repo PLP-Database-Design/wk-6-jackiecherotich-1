@@ -144,7 +144,39 @@ Phase 1 is complete when:
 - November 4 , 2025 Jira board and test plan documentation
 - November 5, 2025 Final verification and submission
 
-### 9.  Sign-off
+### 9. Initial Guidelines
+
+#### Defect Management Framework
+- **Severity Levels**:
+  - Critical: Blocks testing or causes system crash
+  - High: Major functionality broken
+  - Medium: Minor functionality issues
+  - Low: Cosmetic or minor UI issues
+
+- **Priority Levels**:
+  - P1: Must fix immediately
+  - P2: Should be fixed in current release
+  - P3: Can be fixed in next release
+  - P4: Enhancement for future consideration
+
+#### Risk Identification
+1. **Incomplete Requirements**
+   - Impact: May lead to incomplete test coverage
+   - Mitigation: Document assumptions, seek clarifications
+
+2. **Environment Issues**
+   - Impact: Delays in testing
+   - Mitigation: Set up environments early, document configurations
+
+3. **Test Data Limitations**
+   - Impact: Incomplete test coverage
+   - Mitigation: Create comprehensive test data sets
+
+4. **Time Constraints**
+   - Impact: Rushed testing
+   - Mitigation: Prioritize test cases, focus on critical paths
+
+### 10. Sign-off
 
 ### Phase 1 Completion
 | Task |	Owner	| Status |	Date |
@@ -154,13 +186,65 @@ Phase 1 is complete when:
 | Test Plan	| Magret | completed |	5/11/2025 |
 | Final Review |	Team	| completed |	5/11/2025 |
 
-### Phase 2 Completion
-| Task |	Owner	| Status |	Date |
-|:-----------:| :----------: | :---------:| :----:|
-| Repository Setup|	Amobigold |	completed |	|
-| Jira Board	| Jackline | completd	| |
-| Test Plan	| Magret | completed |	 |
-| Final Review |	Team	| completed |	|
+### Phase 2: Test Design & Early Execution 
+
+#### Key Activities:
+- [ ] Draft test cases and checklists
+- [ ] Develop early manual/automated test scripts
+- [ ] Create initial defect log
+
+#### Defect Management
+- [ ] Implement defect logging process in Jira
+- [ ] Log initial defects with severity levels
+- [ ] Begin tracking defect metrics
+
+#### Risk Monitoring
+- [ ] Review initial risks
+- [ ] Update mitigation strategies
+- [ ] Identify any new risks
+
+#### Phase 2 Timeline
+- **November 6-8, 2025**: Draft test cases and checklists
+- **November 9-10, 2025**: Develop test scripts
+- **November 11, 2025**: Complete initial defect log and review
+
+#### Phase 2 Completion:
+| Task | Owner | Status | Date |
+|:----|:-----:|:------:|:----:|
+| Test Cases & Checklists | Amobigold | | |
+| Test Scripts | Jackline | | |
+| Initial Defect Log | Magret | | |
+| Review & Approval | Team | | |
+
+### Phase 3: Final Execution & Reporting
+
+#### Key Activities:
+- [ ] Complete test execution with evidence
+- [ ] Update defect log with severity/priority
+- [ ] Prepare final report with executive summary
+
+#### Final Defect Management
+- [ ] Verify all defects are properly categorized
+- [ ] Ensure all critical/high severity issues are resolved
+- [ ] Document any remaining known issues
+
+#### Risk Assessment
+- [ ] Final review of all identified risks
+- [ ] Document effectiveness of mitigation strategies
+- [ ] Update risk register for future reference
+
+#### Phase 3 Timeline (Due: November 16, 2025)
+- **November 12-14, 2025**: Execute all test cases and gather evidence
+- **November 15, 2025**: Finalize defect management and risk assessment
+- **November 16, 2025**: Complete final report and obtain sign-off
+
+#### Phase 3 Completion:
+| Task | Owner | Status | Date |
+|:----|:-----:|:------:|:----:|
+| Test Execution | Amobigold | | |
+| Defect Management | Magret | | |
+| Final Report | Jackline | | |
+| Sign-off | Team | | |
 
 ### Final Sign-off
 | Role | Name | Signature | Date |
