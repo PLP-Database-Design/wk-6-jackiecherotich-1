@@ -1,5 +1,36 @@
-# CleanCity Waste Pickup Scheduler - Phase 1 Test Plan
+# CleanCity Waste Pickup Scheduler - Test Plan
+## 1. Introduction
+This test plan outlines the testing strategy by team Sniffer for the CleanCity Waste Pickup Scheduler web application. The application is designed to help manage waste collection in African cities.
 
+
+## 2. Testing Approach
+- **Black-box Testing**: We are going to test without accessing the internal code to see how the app behaves
+- **UI Testing**: Verify that the app is working well on all user interfaces 
+- **Functional Testing**: Test all features and functions, see if they are working properly and as expected
+- **Accessibility Testing**: Check for Web Content Accessibility Guidelines compliance and ensure they are well met for all users
+- **Compatibility Testing**: Test across different browsers and devices
+
+## 3. Test Environment
+- **Browsers**: Chrome, Firefox, Edge
+- **Devices**: Desktop (primary), Tablet, Mobile
+- **Testing Tools**:
+  - Selenium (for automated UI testing)
+  - Jest (for unit and integration testing)
+- **Code Quality**: SonarQube
+- **Accessibility**: Windows Accessibility Tools
+- **Version Control**: Git, GitHub
+- **Project Management**: Jira
+  
+## 4. Project Phases
+### Phase 1: Planning & Setup 
+
+#### Objectives:
+- Set up local testing environment
+- Create project board
+- Complete test plan documentation
+- Define team roles and communication plan
+- Set up Jira integration
+- 
 ## 1. Phase 1 Deliverables
 
 ### 1.1 Repository Setup
