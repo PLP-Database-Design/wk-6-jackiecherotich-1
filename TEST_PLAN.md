@@ -1,4 +1,32 @@
 # CleanCity Waste Pickup Scheduler - Test Plan
+
+## Table of Contents
+- [1. Introduction](#1-introduction)
+- [2. Testing Approach](#2-testing-approach)
+- [3. Test Environment](#3-test-environment)
+- [4. Project Phases](#4-project-phases)
+  - [Phase 1: Planning & Setup](#phase-1-planning--setup)
+  - [Phase 2: Test Design & Early Execution](#phase-2-test-design--early-execution)
+  - [Phase 3: Final Execution & Reporting](#phase-3-final-execution--reporting)
+- [5. Team Setup](#5-team-setup)
+  - [5.1 Roles & Responsibilities](#51-roles--responsibilities)
+  - [5.2 Communication Plan](#52-communication-plan)
+- [6. Jira Integration](#6-jira-integration)
+  - [6.1 Setup](#61-setup)
+  - [6.2 Access](#62-access)
+- [7. Repository Access Instructions](#7-repository-access-instructions)
+  - [7.1 Access Details](#71-access-details)
+  - [7.2 Team Members with Access](#72-team-members-with-access)
+- [8. Check Test Results](#8-check-test-results)
+  - [8.1 Phase 1 Timeline](#81-phase-1-timeline)
+- [9. Initial Guidelines](#9-initial-guidelines)
+  - [Defect Management Framework](#defect-management-framework)
+  - [Risk Identification](#risk-identification)
+- [10. Sign-off](#10-sign-off)
+- [Final Sign-off](#final-sign-off)
+
+---
+
 ## 1. Introduction
 This test plan outlines the testing strategy by team Sniffer for the CleanCity Waste Pickup Scheduler web application. The application is designed to help manage waste collection in African cities.
 
@@ -115,7 +143,9 @@ This test plan outlines the testing strategy by team Sniffer for the CleanCity W
 ### 7. Repository Access Instructions
 
 #### 7.1 Access Details
-- **Repository URL**: [https://github.com/PLP-Database-Design/wk-6-jackiecherotich-1.git](The repository we are using as members)
+- **Repository**: [CleanCity Waste Scheduler repo for the members](https://github.com/PLP-Database-Design/wk-6-jackiecherotich-1.git)
+- **Type**: Private GitHub Repository
+- **Access**: Team members only (contributor access required)
 - **Access Level**: All team members have been granted contributor access
 - **Branching Strategy**:
   - `main` - Production-ready code
