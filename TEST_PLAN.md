@@ -79,7 +79,7 @@ This test plan outlines the testing strategy by team Sniffer for the CleanCity W
   - Node.js v18+
   - npm or yarn
   - Git
-- [x] Verify that installations exist:
+- [x] Verify that installations exist
 
   
 **1.3 Application Verification**
@@ -144,9 +144,9 @@ This test plan outlines the testing strategy by team Sniffer for the CleanCity W
 
 #### 7.1 Access Details
 - **Repository**: [CleanCity Waste Scheduler repo for the members](https://github.com/PLP-Database-Design/wk-6-jackiecherotich-1.git)
-- **Type**: Private GitHub Repository
+- **Type**: Forked GitHub repository from the main one
 - **Access**: Team members only (contributor access required)
-- **Access Level**: All team members have been granted contributor access
+- **Access Level**: All team members have been granted full access
 - **Branching Strategy**:
   - `main` - Production-ready code
   - `develop` - Development branch
@@ -213,7 +213,7 @@ Phase 1 is complete when:
 |:-----------:| :----------: | :---------:| :----:|
 | Repository Setup|	Amobigold |	completed |	3/11/2025	|
 | Jira Board	| Jackline | completd	|4/11/2025|
-| Test Plan	| Magret | completed |	5/11/2025 |
+| Test Plan	| Team | completed |	5/11/2025 |
 | Final Review |	Team	| completed |	5/11/2025 |
 
 ### Phase 2: Test Design & Early Execution 
@@ -241,10 +241,10 @@ Phase 1 is complete when:
 #### Phase 2 Completion:
 | Task | Owner | Status | Date |
 |:----|:-----:|:------:|:----:|
-| Test Cases & Checklists | Amobigold | | |
-| Test Scripts | Jackline | | |
-| Initial Defect Log | Magret | | |
-| Review & Approval | Team | | |
+| Test Cases & Checklists | Amobigold Sikirat | | | |
+| Test Scripts | Jackline Cherotich | | | |
+| Initial Defect Log | Magret Faith | | | |
+| Review & Approval | Team Members | | | |
 
 ### Phase 3: Final Execution & Reporting
 
@@ -263,25 +263,25 @@ Phase 1 is complete when:
 - [ ] Document effectiveness of mitigation strategies
 - [ ] Update risk register for future reference
 
-#### Phase 3 Timeline (Due: November 16, 2025)
+#### Phase 3 Timeline 
 - **November 12-14, 2025**: Execute all test cases and gather evidence
 - **November 15, 2025**: Finalize defect management and risk assessment
 - **November 16, 2025**: Complete final report and obtain sign-off
 
 #### Phase 3 Completion:
-| Task | Owner | Status | Date |
-|:----|:-----:|:------:|:----:|
-| Test Execution | Amobigold | | |
-| Defect Management | Magret | | |
-| Final Report | Jackline | | |
-| Sign-off | Team | | |
+| Task | Owner | Status | Date | Initials |
+|:----|:-----:|:------:|:----:| :-----:|
+| Test Execution | Amobigold Sikirat | | | |
+| Defect Management | Magret Faith | | | |
+| Final Report | Jackline Cherotich | | | |
+| Sign-off | Team Members | | | |
 
 ### Final Sign-off
-| Role | Name | Signature | Date |
-|------|------|-----------|------|
-| Test Manager | Jackline |  |  |
-| Test Executor | Amobigold |  |  |
-| Risk Analyst | Magret Faith |  |  |
+| Role | Name | Signature | Date | Initials |
+|------|------|-----------|------| :-----:|
+| Test Manager | Jackline Cherotich |  |  |  |
+| Test Executor | Amobigold Sikirat |  |  |  |
+| Risk Analyst | Magret Faith |  |  |  |
 
 ---
 *This test plan will be updated as needed throughout the project lifecycle. Last updated: November 6, 2025*
