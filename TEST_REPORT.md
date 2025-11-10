@@ -299,20 +299,20 @@ All test cases in this report were executed against the live deployment to ensur
 | D10 | Password policy not enforced | High | R1 | Open | JIRA-110 |
 | D11 | Location filtering too broad | High | R6 | Open | JIRA-111 |
 | D12 | Missing alt-text on images | Medium | R7 | Open | JIRA-112 |
-| D13 | UI doesn't refresh after actions | Medium | - | Open | JIRA-113 |
+| D13 | UI doesn't refresh after actions | Medium |  R2 | Open | JIRA-113 |
 | D14 | Long text causes layout issues | Low | R5 | Open | JIRA-114 |
 | D15 | Profile picture update via URL only | Medium | R7 | Open | JIRA-115 |
 | D16 | Weak password policy | High | R1 | Open | JIRA-116 |
-| D17 | Community posts not visible to all users | Medium | - | Open | JIRA-117 |
+| D17 | Community posts not visible to all users | Medium | R6 | Open | JIRA-117 |
 | D18 | No character limit on feedback text | Medium | R3 | Open | JIRA-118 |
-| D19 | No differentiation between feedback types | Medium | - | Open | JIRA-119 |
+| D19 | No differentiation between feedback types | Medium |R3 | Open | JIRA-119 |
 | D20 | Awareness tab navigation issues | Medium | R5 | Open | JIRA-120 |
-| D21 | Eco tips refresh too frequently | Low | - | Open | JIRA-121 |
-| D22 | No interface to post blogs | Medium | - | Open | JIRA-122 |
+| D21 | Eco tips refresh too frequently | Low | R5 | Open | JIRA-121 |
+| D22 | No interface to post blogs | Medium | R8 | Open | JIRA-122 |
 | D23 | Schedule pickup accepts invalid emails | High | R3 | Open | JIRA-123 |
 | D24 | Schedule pickup allows past dates | High | R3 | Open | JIRA-124 |
 | D25 | Schedule pickup allows special characters only | Medium | R3 | Open | JIRA-125 |
-| D26 | User comments not showing in profile | Medium | - | Open | JIRA-126 |
+| D26 | User comments not showing in profile | Medium | R6 | Open | JIRA-126 |
 | D27 | Dashboard not showing user requests | High | R6 | Open | JIRA-127 |
 | D28 | Logout doesn't restrict access | High | R1 | Open | JIRA-128 |
 | D29 | Admin panel allows access with invalid emails | Critical | R4 | Open | JIRA-129 |
