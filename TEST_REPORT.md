@@ -183,21 +183,21 @@ All test cases in this report were executed against the live deployment to ensur
 | TC-09 | Feedback | Submit feedback with valid details | Feedback recorded and visible | Fail | Feedback not visible to admin | R6 | Communication |
 | TC-10 | Responsive Design | Test on mobile view (320px-768px) | Layout adjusts correctly | Fail | Mobile menu issues | R5 | UI/UX |
 | TC-11 | Data Persistence | Refresh page after actions | Data persists correctly | Pass | Passed | R2 | Data Management |
-| TC-12 | Profile Management | Update profile picture | Should be able to update profile picture via URL | Pass | Profile picture can be updated using image URL | - | User Management |
+| TC-12 | Profile Management | Update profile picture | Should be able to update profile picture via URL | Pass | Profile picture can be updated using image URL | R7 | User Management |
 | TC-12.1 | Profile Management | Upload profile picture | Should provide file upload functionality | Fail | No file upload option available, only URL input | R7 | User Management |
 | TC-13 | Password Policy | Register with weak password | Registration should be rejected | Fail | Weak passwords are accepted | R1 | Security |
-| TC-14 | Community Posts | View community posts | Posts should be visible to all users | Fail | Posts not visible to all users | - | Social Features |
+| TC-14 | Community Posts | View community posts | Posts should be visible to all users | Fail | Posts not visible to all users | R6 | Social Features |
 | TC-15 | Feedback System | Submit very long feedback | Character limit should be enforced | Fail | No character limit on feedback | R3 | Validation |
-| TC-16 | Feedback System | Report missed pickup | Should differentiate from general feedback | Fail | No way to mark as missed pickup | - | User Experience |
+| TC-16 | Feedback System | Report missed pickup | Should differentiate from general feedback | Fail | No way to mark as missed pickup | R3 | User Experience |
 | TC-17 | Awareness Tab | Navigate using action buttons | Should go to correct pages | Fail | Buttons not navigating correctly | R5 | Navigation |
 | TC-18 | Awareness Tab | View daily eco tip | Should show one tip per day | Fail | Tips refresh too quickly (every second instead of daily) | R5 | UI/UX |
-| TC-19 | Blog System | Create new blog post | Should be able to post blog | Fail | No interface to post blogs | - | Content Management |
+| TC-19 | Blog System | Create new blog post | Should be able to post blog | Fail | No interface to post blogs | R8 | Content Management |
 | TC-20 | Schedule Pickup | Input validation for description | Should limit input length | Fail | Accepts very long descriptions | R3 | Validation |
 | TC-21 | Schedule Pickup | Email format validation | Should reject invalid emails | Fail | Accepts incomplete emails | R3 | Validation |
-| TC-22 | Schedule Pickup | Location input | Should require specific location | Fail | Location filtering too broad | - | Data Quality |
+| TC-22 | Schedule Pickup | Location input | Should require specific location | Fail | Location filtering too broad | R6 | Data Quality |
 | TC-23 | Schedule Pickup | Date validation | Should reject past dates | Fail | Accepts past dates | R3 | Validation |
 | TC-24 | Schedule Pickup | Special characters in description | Should validate input | Fail | Accepts special characters inputs | R3 | Validation |
-| TC-25 | User Profile | View my comments | Should show under profile | Fail | Comments not visible in profile | - | User Management |
+| TC-25 | User Profile | View my comments | Should show under profile | Fail | Comments not visible in profile | R6 | User Management |
 | TC-26 | Dashboard | View my requests | Should show all user's pickups | Fail | No requests displayed | R6 | Data Display |
 | TC-27 | Authentication | After logout | Should restrict access to protected pages | Fail | Protected pages still accessible | R1 | Security |
 | TC-28 | Admin Access | Login with invalid admin email | Should deny access | Fail | Grants access with invalid email | R4 | Security |
@@ -208,18 +208,18 @@ All test cases in this report were executed against the live deployment to ensur
 | TC-33 | Input Sanitization | Submit HTML/script in form fields | Scripts not executed | Pass | Passed | R10 | Security |
 | TC-34 | Error Handling | Access non-existent route | User-friendly error page shown | Pass | Passed | R12 | Error Handling |
 | TC-35 | Data Validation | Submit invalid date (past date) | Validation error shown | Fail | Accepts past dates | R11 | Validation |
-| TC-36 | Profile Management | Update user profile details | Changes saved successfully | Pass | Passed | - | User Management |
-| TC-37 | Notification System | Trigger notification event | Notification received | Not Tested | Pending | - | Communication |
-| TC-38 | Blog System | Create and publish blog post | Post visible to users | Fail | No interface for posting | - | Content Management |
-| TC-39 | Community Features | Post in community feed | Post visible to other users | Fail | Posts not visible to all users | - | Social Features |
+| TC-36 | Profile Management | Update user profile details | Changes saved successfully | Pass | Passed | R2| User Management |
+| TC-37 | Notification System | Trigger notification event | Notification received | Not Tested | Pending | R2 | Communication |
+| TC-38 | Blog System | Create and publish blog post | Post visible to users | Fail | No interface for posting | R8 | Content Management |
+| TC-39 | Community Features | Post in community feed | Post visible to other users | Fail | Posts not visible to all users | R6 | Social Features |
 | TC-40 | Filter Functionality | Filter by "Eldoret" location | Show only Eldoret requests | Fail | Location filtering is too broad | R6 | Data Management |
-| TC-41 | Awareness Page | Verify eco tips display | Show one daily eco tip | Fail | Refreshes every second | - | UI/UX |
-| TC-42 | Blog System | Create new blog post | Post should be visible in community | Fail | No interface to post blogs | - | Content Management |
+| TC-41 | Awareness Page | Verify eco tips display | Show one daily eco tip | Fail | Refreshes every second |R5 | UI/UX |
+| TC-42 | Blog System | Create new blog post | Post should be visible in community | Fail | No interface to post blogs | R8 | Content Management |
 | TC-43 | Form Validation | Enter very long text in feedback | Should limit input length | Fail | No character limit | R3 | Validation |
 | TC-44 | Admin Authentication | Login with invalid admin email | Access should be denied | Fail | Invalid emails grant access | R4 | Security |
 | TC-45 | Admin Panel Access | Admin user accessing admin panel | Should show admin-specific features | Fail | Shows no data | R4 | Admin |
-| TC-46 | User Profile | Update profile picture | New picture should be saved | Fail | Cannot update picture | - | User Management |
-| TC-47 | User Profile | View my comments | Should show under profile | Fail | Comments not visible | - | User Management |
+| TC-46 | User Profile | Update profile picture | New picture should be saved | Fail | Cannot update picture | R7 | User Management |
+| TC-47 | User Profile | View my comments | Should show under profile | Fail | Comments not visible | R6 | User Management |
 | TC-48 | Dashboard | View my requests | Should show all user's pickups | Fail | Dashboard not showing requests | R6 | Data Display |
 | TC-49 | Logout | After logout, access restricted pages | Should redirect to login | Fail | Protected pages still accessible | R9 | Security |
 | TC-50 | Admin Panel Access | Access with 'admin' prefixed email | Should be restricted | Fail | Access granted | R4 | Security |
