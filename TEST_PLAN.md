@@ -1,95 +1,152 @@
-# CleanCity Waste Pickup Scheduler - Phase 1 Test Plan
+# CleanCity Waste Pickup Scheduler - Test Plan
+## 1. Introduction
+This test plan outlines the testing strategy by team Sniffer for the CleanCity Waste Pickup Scheduler web application. The application is designed to help manage waste collection in African cities.
 
+
+## 2. Testing Approach
+- **Black-box Testing**: We are going to test without accessing the internal code to see how the app behaves
+- **UI Testing**: Verify that the app is working well on all user interfaces 
+- **Functional Testing**: Test all features and functions, see if they are working properly and as expected
+- **Accessibility Testing**: Check for Web Content Accessibility Guidelines compliance and ensure they are well met for all users
+- **Compatibility Testing**: Test across different browsers and devices
+
+## 3. Test Environment
+- **Browsers**: Chrome, Firefox, Edge
+- **Devices**: Desktop (primary), Tablet, Mobile
+- **Testing Tools**:
+  - Selenium (for automated UI testing)
+  - Jest (for unit and integration testing)
+- **Code Quality**: SonarQube
+- **Accessibility**: Windows Accessibility Tools
+- **Version Control**: Git, GitHub
+- **Project Management**: Jira
+  
+## 4. Project Phases
+### Phase 1: Planning & Setup 
+
+#### Objectives:
+- Set up local testing environment
+- Create project board
+- Complete test plan documentation
+- Define team roles and communication plan
+- Set up Jira integration
+- 
 ## 1. Phase 1 Deliverables
 
 ### 1.1 Repository Setup
-- [ x] Fork the main repository to team's GitHub account
-- [x ] Clone repository locally on each of team member's machine
-- [x ] Verify repository structure from:
-  - [ x] index.html
-  - [x ] styles.css
-  - [ ] script.js
-  - [ ] src/ directory (for React version)
-  - [ ] package.json
-- [ ] Document repository access instructions
+
+- [ x ] Fork the main repository to team's GitHub account
+- [ x ] Clone repository locally on each of team member's machine
+- [ x ] Verify repository structure from:
+  - [ x ] index.html
+  - [ x ] styles.css
+  - [ x ] script.js
+  - [ x ] src/ directory (for React version)
+  - [ x ] package.json
+- [ x ] Document repository access instructions
 
 ### 1.2 Local Environment Setup
-- [ ] Install required software:
-  - [ ] Node.js v18+
-  - [ ] npm or yarn
-  - [ ] Git
-- [ ] Verify installations:
+
+- [ x ] Install required software:
+  - [ x ] Node.js v18+
+  - [ x ] npm or yarn
+  - [ x ] Git
+- [ x ] Verify installations:
+  
   ```bash
   node --version
   npm --version
   git --version
+  ```
+  
 1.3 Application Verification
 HTML Version:
 •	 Open index.html in browser
 •	 Verify home page loads without errors
 •	 Check navigation between pages
 React Version:
+
 ```bash
 npm install
 npm start
+```
 •	 Verify app runs on http://localhost:3000
 •	 Check all pages load correctly
 •	 Document any setup issues
-1.4 Project Board Setup
-•	 Create Jira board
-•	 Configure columns:
-Backlog → To Do → In Progress → Code Review → Testing → Done
-•	 Create initial tasks for Phase 1
-•	 Invite team members
-•	 Set up labels and components
-1.5 Test Plan Documentation
-•	 Complete this test plan
-•	 Include all required sections
-•	 Get team approval
-•	 Upload to repository
-2. Team Setup
-2.1 Roles & Responsibilities
-Role	Name	Responsibilities
-Test Manager	Jackline	Oversee testing, track progress
-Risk Analyst	Magret	Identify and manage risks
-Test Executor	Amobigold	Execute tests, report issues
-2.2 Communication Plan
-•	Tool: WhatsApp group
-•	Daily updates at 12:00 PM EAT
-•	Immediate issue reporting
-•	Tool: Jira
-•	Task tracking
-•	Bug reporting
-•	Progress monitoring
-•	Meetings:
-•	Weekly sync: Wednesdays 8:00 PM EAT (Google Meet)
-•	As needed: Quick standups
-3. Jira Integration
+
+### 1.4 Project Board Setup
+
+-  Create Jira board
+-  Configure columns:
+- Backlog → To Do → In Progress → Code Review → Testing → Done
+-  Create initial tasks for Phase 1
+-  Invite team members
+-  Set up labels and components
+
+### 1.5 Test Plan Documentation
+
+- Complete this test plan
+- Include all required sections
+-	 Get team approval
+-	 Upload to repository
+
+### 2. Team Setup
+
+### 2.1 Roles & Responsibilities
+
+| Role |	Name	| Responsibilities |
+|:--------:|:-----:|:-------:|
+| Test Manager	| Jackline|	Oversee testing, track progress |
+| Risk Analyst	| Magret	| Identify and manage risks |
+| Test Executor | Amobigold	| Execute tests, report issues |
+
+### 2.2 Communication Plan
+| Tool| Purpose| Timeline| Notes| 
+|----------|-------------|-------------| -------------|
+| WhatsApp group |Daily updates | 12:00 PM EAT |Immediate issue reporting |
+| Jira | Task tracking,bug reporting, progress monitoring | As needed|
+|	Google Meet |	Weekly sync | Wednesdays 8:00 PM EAT | Quick standups|
+
+### 3. Jira Integration
+
 3.1 Setup
-•	 Create Jira project
-•	 Configure issue types
-•	 Set up workflow
-•	 Integrate with GitHub
+- Create Jira project
+- Configure issue types
+- Set up workflow
+- Integrate with GitHub
+  
 3.2 Access
-•	 Add team members
-•	 Set permissions
-•	 Verify access
-4. Verification Steps
+
+- Add team members
+-  Set permissions
+-  Verify access
+
+### 4. Verification Steps
+
 4.1 Repository
-bash
-# Verify Git setup
+
+```bash
+Verify Git setup
 git status
 git remote -v
+```
+
 4.2 Application
-bash
-# For React version
+
+### For React version
+
+ ```bash
 npm test
-# Check test results
+```
+
+### Check test results
+
 4.3 Jira
-•	 Create test issue
-•	 Move through workflow
-•	 Verify notifications
-5. Success Criteria
+
+- Create test issue
+-  Move through workflow
+- verify notifications
+  
 Phase 1 is complete when:
 1.	 Repository is forked and cloned
 2.	Project board is created and shared
@@ -98,19 +155,19 @@ Phase 1 is complete when:
 5.	Communication plan is set
 6.	 Jira integration works
 
-5. Timeline
-November 3 , 2025
-•	 Repository and environment setup
-November  , 2025
-•	 Jira board and test plan documentation
+### 5. Timeline
 
-November 5, 2025
-•	 Final verification and submission
-6. Sign-off
-Task	Owner	Status	Date	Notes
-Repository Setup	Amobigold	Pending	-	-
-Jira Board	Jackline	 Pending	-	-
-Test Plan	All	Pending	-	-
-Final Review	Team	 Pending	-	-
+- November 3 , 2025 Repository and environment setup
+- November  , 2025 Jira board and test plan documentation
+- November 5, 2025 Final verification and submission
+
+### 6. Sign-off
+
+| Task |	Owner	| Status |	Date |
+|:-----------:| :----------: | :---------:| :----:|
+| Repository Setup|	Amobigold |	completed |	3/11/2025	|
+| Jira Board	| Jackline | completd	|4/11/2025|
+| Test Plan	| Magret | completed |	5/11/2025 |
+| Final Review |	Team	| completed |	5/11/2025 |
 
 
