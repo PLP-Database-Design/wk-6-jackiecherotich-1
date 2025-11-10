@@ -209,7 +209,7 @@ Phase 1 is complete when:
 ### 10. Sign-off
 
 ### Phase 1 Completion
-| Task |	Owner	| Status |	Date |
+| Task |	Owner	| Status |	Date |	Initials |
 |:-----------:| :----------: | :---------:| :----:|
 | Repository Setup|	Amobigold |	completed |	3/11/2025	|
 | Jira Board	| Jackline | completd	|4/11/2025|
@@ -219,19 +219,19 @@ Phase 1 is complete when:
 ### Phase 2: Test Design & Early Execution 
 
 #### Key Activities:
-- [ ] Draft test cases and checklists
-- [ ] Develop early manual/automated test scripts
-- [ ] Create initial defect log
+- [x] Draft test cases and checklists
+- [x] Develop early manual/automated test scripts
+- [x] Create initial defect log
 
 #### Defect Management
-- [ ] Implement defect logging process in Jira
-- [ ] Log initial defects with severity levels
-- [ ] Begin tracking defect metrics
+- [x] Implement defect logging process in Jira
+- [x] Log initial defects with severity levels
+- [x] Begin tracking defect metrics
 
 #### Risk Monitoring
-- [ ] Review initial risks
-- [ ] Update mitigation strategies
-- [ ] Identify any new risks
+- [x] Review initial risks
+- [x] Update mitigation strategies
+- [x] Identify any new risks
 
 #### Phase 2 Timeline
 - **November 6-8, 2025**: Draft test cases and checklists
@@ -239,12 +239,20 @@ Phase 1 is complete when:
 - **November 11, 2025**: Complete initial defect log and review
 
 #### Phase 2 Completion:
-| Task | Owner | Status | Date |
-|:----|:-----:|:------:|:----:|
-| Test Cases & Checklists | Amobigold Sikirat | | | |
-| Test Scripts | Jackline Cherotich | | | |
-| Initial Defect Log | Magret Faith | | | |
-| Review & Approval | Team Members | | | |
+| Task | Owner | Status | Date | Initials |
+|:----|:-----:|:------:|:----:| :-----:|
+| Test Cases & Checklists | Amobigold Sikirat | Completed | 11/11/2025 | AS |
+| Test Scripts | Jackline Cherotich | Completed | 11/11/2025 | JC |
+| Initial Defect Log | Magret Faith | Completed | 11/11/2025 | MF |
+| Review & Approval | Team Members | Completed | 11/11/2025 | Team |
+
+### Phase 2 is complete when:
+1. Test cases and checklists are drafted and reviewed by the team
+2. Initial test scripts (manual/automated) are developed and validated
+3. Defect logging process is implemented in Jira
+4. Initial defects are logged with proper severity levels
+5. All team members have completed their assigned Phase 2 tasks
+6. Phase 2 review meeting is conducted and signed off by all team members
 
 ### Phase 3: Final Execution & Reporting
 
@@ -275,6 +283,15 @@ Phase 1 is complete when:
 | Defect Management | Magret Faith | | | |
 | Final Report | Jackline Cherotich | | | |
 | Sign-off | Team Members | | | |
+
+### Phase 3 is complete when:
+1. All test cases have been executed and evidence is properly documented
+2. Defect log is fully updated with severity and priority for all issues
+3. Final test report with executive summary is prepared and reviewed
+4. All critical and high severity defects are resolved or have mitigation plans
+5. Final risk assessment is completed and documented
+6. All team members have completed their assigned Phase 3 tasks
+7. Final review meeting is conducted and project is signed off by all stakeholders
 
 ### Final Sign-off
 | Role | Name | Signature | Date | Initials |
