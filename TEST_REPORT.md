@@ -1,4 +1,4 @@
-# ðŸ§ª Final Group Test Report â€” CleanCity Waste Pickup Scheduler
+# =ƒº¬ Final Group Test Report GÇö CleanCity Waste Pickup Scheduler
 
 **Level:** Advanced QA | **Final Project:** End-to-End Testing
 
@@ -292,10 +292,10 @@ All test cases in this report were executed against the live deployment to ensur
 ### Quality Gate Status
 | Metric                | Target  | Actual  | Status  |
 |-----------------------|---------|---------|---------|
-| Test Pass Rate       | â‰¥80%    | 13.2%   |  Failed |
+| Test Pass Rate       | GëÑ80%    | 13.2%   |  Failed |
 | Critical Defects     | 0       | 2       |  Failed |
-| High Priority Defects| â‰¤2      | 14      |  Failed |
-| Test Coverage        | â‰¥90%    | 97.4%   |  Passed |
+| High Priority Defects| Gëñ2      | 14      |  Failed |
+| Test Coverage        | GëÑ90%    | 97.4%   |  Passed |
 
 ### Top Areas Needing Attention
 1. **Security Vulnerabilities** (Critical/High): 16 issues
