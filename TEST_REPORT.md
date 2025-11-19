@@ -1,19 +1,65 @@
-# Software Test Report
+<div align="center">
 
-## CleanCity Waste Pickup Scheduler
+# 🧪 Software Test Report
 
-**Document ID:** TR-CLEANCITY-2025-005  
-**Date of Report:** November 18, 2025  
-**Prepared by:** Jackline Cherotich, Magret Faith, Amobigold Sikirat  
-**Version:** 5.0  
+## 🗑️ CleanCity Waste Pickup Scheduler
 
----
+| Document Information | |
+|----------------------|-|
+| **Document ID** | TR-CLEANCITY-2025-005 |
+| **Date of Report** | November 18, 2025 |
+| **Prepared by** | Jackline Cherotich, Magret Faith, Amobigold Sikirat |
+| **Version** | 5.0 |
+| **Status** | 🔴 Not Approved for Release |
 
-## Executive Summary
+</div>
+
+## 📑 Table of Contents
+- [1. Executive Summary](#1-executive-summary)
+- [2. Test Objective](#2-test-objective)
+- [3. Areas Covered](#3-areas-covered)
+  - [3.1 Functional Testing](#31-functional-testing)
+  - [3.2 Non-Functional Testing](#32-non-functional-testing)
+  - [3.3 Areas Not Covered](#33-areas-not-covered)
+- [4. Testing Approach](#4-testing-approach)
+  - [4.1 Test Strategy](#41-test-strategy)
+  - [4.2 Testing Process](#42-testing-process)
+  - [4.3 Testing Tools](#43-testing-tools)
+  - [4.4 Sample Key Test Cases](#44-sample-key-test-cases)
+- [5. Defect Report](#5-defect-report)
+  - [5.1 Defect Summary](#51-defect-summary)
+  - [5.2 Critical Defects](#52-critical-defects)
+  - [5.3 Open High-Severity Defects](#53-open-high-severity-defects)
+  - [5.4 Defect Trend Analysis](#54-defect-trend-analysis)
+- [6. Platform Details](#6-platform-details)
+  - [6.1 Test Environment](#61-test-environment)
+  - [6.2 Client Environments](#62-client-environments)
+  - [6.3 Tools and Frameworks](#63-tools-and-frameworks)
+- [7. Overall Status](#7-overall-status)
+  - [7.1 Testing Summary](#71-testing-summary)
+  - [7.2 Quality Assessment](#72-quality-assessment)
+  - [7.3 Risk Assessment](#73-risk-assessment)
+  - [7.4 Release Recommendation](#74-release-recommendation)
+  - [7.5 Post-Remediation Activities](#75-post-remediation-activities)
+- [8. Requirements Traceability](#8-requirements-traceability)
+- [9. Testing Challenges & Lessons Learnt](#9-testing-challenges--lessons-learnt)
+  - [9.1 Challenges Encountered](#91-challenges-encountered)
+  - [9.2 Lessons Learnt](#92-lessons-learnt)
+- [10. Appendices](#10-appendices)
+  - [10.1 Test Case Execution Details](#101-test-case-execution-details)
+  - [10.2 Performance Test Results](#102-performance-test-results)
+  - [10.3 Traceability Matrix](#103-traceability-matrix)
+  - [10.4 Test Data Used](#104-test-data-used)
+  - [10.5 Defect Details](#105-defect-details)
+- [11. Approvals](#11-approvals)
+
+
+
+## 1. Executive Summary
 
 This report presents the results of comprehensive testing conducted on the CleanCity Waste Pickup Scheduler web application from November 5 to November 18, 2025. The testing focused on validating core functionality, security measures, user experience, and compatibility across platforms.
 
-### Key Findings
+### 🔍 Key Findings
 
 - Critical security vulnerabilities identified including authentication bypass and XSS risks affecting all user data
 - Core functionality failures in pickup scheduling and dashboard management with only 14.3% manual test pass rate
@@ -21,12 +67,12 @@ This report presents the results of comprehensive testing conducted on the Clean
 - 29 total defects identified with only 6.9% resolution rate indicating systemic development challenges
 - Code quality analysis revealed 90+ issues including security vulnerabilities and maintainability concerns
 
-### Recommendation
+### ⚠️ Recommendation
 The QA team **DOES NOT RECOMMEND** production release. Critical security vulnerabilities, fundamental functionality failures, and severe usability issues require immediate remediation and comprehensive retesting before any release consideration.
 
 ---
 
-## 1. Test Objective
+## 2. Test Objective
 
 The primary objective of this testing cycle was to evaluate the quality, functionality, performance, and usability of the CleanCity Waste Pickup Scheduler before its release to production. Specifically, our testing aimed to:
 
@@ -44,9 +90,9 @@ This round of testing was conducted over a two-week period from November 5, 2025
 
 ---
 
-## 2. Areas Covered
+## 3. Areas Covered
 
-### 2.1 Functional Testing
+### 3.1 Functional Testing
 
 The following functional areas were thoroughly tested:
 
@@ -83,7 +129,7 @@ The following functional areas were thoroughly tested:
   - System configuration and settings management
   - Data reporting and analytics dashboard
 
-### 2.2 Non-Functional Testing
+### 3.2 Non-Functional Testing
 
 The following non-functional areas were tested:
 
@@ -117,9 +163,11 @@ The following non-functional areas were tested:
 
 ---
 
-## 3. Areas Not Covered
+### 3.3 Areas Not Covered
 
-The following areas were not included in this testing cycle
+> ℹ️ The following areas were excluded from this testing cycle due to prioritization of critical path functionality and resource constraints. These areas should be addressed in future testing phases.
+
+The following areas were not included in this testing cycle:
 
 - **Backend Performance Under Load**
   - Reason: Critical functional and security issues discovered early required focus on core stability before performance testing.
@@ -141,7 +189,7 @@ The following areas were not included in this testing cycle
 
 ---
 
-## 4. Testing Approach
+## 4. Testing Strategy & Execution
 
 ### 4.1 Test Strategy
 
@@ -165,6 +213,22 @@ Our testing approach combined various testing methodologies to ensure comprehens
    - Continuous integration was established for automated test execution.
 
 ### 4.2 Testing Process
+
+```mermaid
+gantt
+    title Testing Process Timeline
+    dateFormat  YYYY-MM-DD
+    section Test Planning
+    Test Plan Creation       :done, plan1, 2025-11-05, 1d
+    Environment Setup        :done, plan2, after plan1, 2d
+    section Test Execution
+    Feature Testing          :active, exec1, 2025-11-06, 5d
+    Security Testing         :active, exec2, after exec1, 3d
+    Compatibility Testing    :active, exec3, after exec2, 2d
+    section Reporting
+    Results Analysis         :crit, report1, after exec3, 2d
+    Report Preparation       :report2, after report1, 2d
+```
 
 The testing process followed these phases:
 
@@ -195,6 +259,17 @@ The testing process followed these phases:
 
 ### 4.3 Testing Tools
 
+| Category | Tools |
+|----------|-------|
+| **Test Management** | JIRA, Google Sheets |
+| **Automation** | Selenium WebDriver 4.11.2, Python 3.11 |
+| **Unit Testing** | Jest 29.0.0, React Testing Library |
+| **Performance** | Chrome DevTools, Lighthouse |
+| **Security** | SonarQube, OWASP ZAP |
+| **Accessibility** | Axe, WAVE, Screen Readers |
+| **API Testing** | Postman, Swagger |
+| **Version Control** | Git, GitHub |
+
 The following tools were utilized during the testing process:
 
 - **Test Management**: JIRA for test case management and execution tracking
@@ -203,7 +278,7 @@ The following tools were utilized during the testing process:
 - **Unit Testing**: Jest 29.0.0 with React Testing Library for component testing
 - **Performance Testing**: Browser Developer Tools for performance profiling
 - **Compatibility Testing**: BrowserStack for cross-browser testing, Browser Developer Tools for responsive testing
-- **Security Testing**: Manual security testing techniques, SonarQube for static analysis
+- **Security Testing**: Manual security testing techniques, code analysis
 - **Accessibility Testing**: Built-in browser accessibility audits, manual screen reader testing
 - **Code Quality**: SonarQube for comprehensive static code analysis
 - **API Testing**: Postman for API endpoint validation where applicable
@@ -257,6 +332,15 @@ Below are examples of critical test cases that helped validate core functionalit
 
 ### 5.1 Defect Summary
 
+```mermaid
+pie
+    title Defect Distribution by Severity
+    "Critical" : 4
+    "High" : 11
+    "Medium" : 10
+    "Low" : 4
+```
+
 A total of 29 defects were identified during the testing cycle, categorized by severity as follows:
 
 | Severity    | Count    | Closed    | Open    |
@@ -267,7 +351,9 @@ A total of 29 defects were identified during the testing cycle, categorized by s
 | Low    | 4    | 0    | 4    |
 | **Total**    | **29**    | **2**    | **27**    |
 
-### 5.2 Critical Defects (All Open)
+### 5.2 Critical Defects 🔥
+
+> ⚠️ The following critical defects represent severe risks to the application's security and core functionality. Immediate attention is required. (All Open)
 
 1. **Authentication Bypass** (D002)
    - **Description**: Users can successfully log in without prior registration using any email and password combination
@@ -297,7 +383,9 @@ A total of 29 defects were identified during the testing cycle, categorized by s
    - **Reproduction Rate**: 100% across all forms
    - **Business Impact**: Critical - unauthorized user actions potential
 
-### 5.3 Open High-Severity Defects
+### 5.3 Open High-Severity Defects ⚠️
+
+> 🔍 The following high-severity defects significantly impact user experience and core functionality. These should be addressed in the next development cycle.
 
 1. **Mobile Navigation Covers Entire Screen** (D001)
    - **Description**: Navigation menu expands to cover entire viewport on mobile devices, blocking content access
@@ -356,7 +444,7 @@ The consistent defect discovery, particularly for high and critical severity iss
 
 ### 6.2 Client Environments
 
-**Desktop Browsers Tested**
+**Desktop Browsers Tested:**
 
 | Browser | Version | OS | Status | Key Issues |
 |---|---|---|---|---|
@@ -364,7 +452,7 @@ The consistent defect discovery, particularly for high and critical severity iss
 | Firefox | 119.0 | Windows 11 | Secondary | Consistent with Chrome findings |
 | Edge | 119.0 | Windows 11 | Compatibility | Same failure patterns observed |
 
-**Mobile Testing (Simulated)**
+**Mobile Testing (Simulated):**
 
 | Device Type | Screen Resolution | Browser | Status | Critical Issues |
 |---|---|---|---|---|
@@ -392,9 +480,22 @@ The consistent defect discovery, particularly for high and critical severity iss
 
 ---
 
+---
+
 ## 7. Overall Status
 
 ### 7.1 Testing Summary
+
+```mermaid
+graph TD
+    A[Total Test Cases: 55] --> B[Executed: 49]
+    B --> C[Passed: 7]
+    B --> D[Failed: 42]
+    A --> E[Not Tested: 6]
+    style C fill:#4CAF50,stroke:#388E3C
+    style D fill:#F44336,stroke:#D32F2F
+    style E fill:#FFC107,stroke:#FFA000
+```
 
 - **Test Cases Executed**: 49 out of 55 planned (89% execution rate)
 - **Test Case Pass Rate**: 7 passed (14.3% pass rate)
@@ -404,7 +505,17 @@ The consistent defect discovery, particularly for high and critical severity iss
 - **Critical User Journeys**: 0% fully passing (all critical paths affected)
 - **Defect Resolution Rate**: 6.9% (2 of 29 defects resolved)
 
-### 7.2 Quality Assessment
+### 7.2 Quality Assessment 📊
+
+```mermaid
+pie showData
+    title Test Case Pass/Fail Distribution
+    "Passed" : 14.3
+    "Failed" : 76.4
+    "Not Tested" : 9.3
+```
+
+Based on our testing results, the CleanCity Waste Pickup Scheduler application has **NOT reached a satisfactory level of quality** with the following observations:
 
 Based on our testing results, the CleanCity Waste Pickup Scheduler application has **NOT reached a satisfactory level of quality** with the following observations:
 
@@ -423,7 +534,18 @@ Based on our testing results, the CleanCity Waste Pickup Scheduler application h
 - **Data Integrity Issues**: Inconsistent data persistence and validation
 - **User Experience Gaps**: Poor error handling and feedback mechanisms
 
-### 7.3 Risk Assessment
+### 7.3 Risk Assessment ⚠️
+
+```mermaid
+graph LR
+    A[Critical Security Risks] --> B[Data Breach]
+    A --> C[System Compromise]
+    D[Functionality Failures] --> E[Service Disruption]
+    F[Mobile Usability] --> G[User Abandonment]
+    H[Data Integrity] --> I[Business Impact]
+```
+
+The remaining risks associated with releasing the application are:
 
 The remaining risks associated with releasing the application are:
 
@@ -449,6 +571,13 @@ The remaining risks associated with releasing the application are:
 
 ### 7.4 Release Recommendation
 
+<div class="alert alert-danger" role="alert">
+  <h4 class="alert-heading">🚫 RELEASE NOT RECOMMENDED</h4>
+  <p>The application in its current state presents <strong>unacceptable business risks</strong> due to critical security vulnerabilities, fundamental functionality failures, and severe usability issues that would compromise service delivery and user trust.</p>
+  <hr>
+  <p class="mb-0">See below for required conditions before release reconsideration.</p>
+</div>
+
 Based on our comprehensive testing and the current status of the application, the QA team  
 **DOES NOT RECOMMEND PROCEEDING WITH THE RELEASE** of CleanCity Waste Pickup Scheduler to production.
 
@@ -462,9 +591,28 @@ The application in its current state presents unacceptable business risks due to
 5. Achieve minimum 80% test pass rate in full regression test suite
 6. Conduct independent security assessment and penetration testing
 
-### 7.5 Post-Remediation Activities
+### 7.5 Post-Remediation Activities 🔄
 
-The following activities are recommended after addressing critical issues:
+> 📌 The following activities should be prioritized after addressing the critical issues to ensure long-term quality and stability.
+
+#### Testing Activities
+- [ ] Full regression testing of all fixed issues
+- [ ] Security penetration testing by third-party
+- [ ] Performance and load testing
+- [ ] User acceptance testing (UAT)
+- [ ] Accessibility compliance verification
+
+#### Documentation Updates
+- [ ] Update test cases and test scripts
+- [ ] Revise user documentation
+- [ ] Update deployment procedures
+- [ ] Create rollback procedures
+
+#### Process Improvements
+- [ ] Implement automated testing pipeline
+- [ ] Establish code review process
+- [ ] Create monitoring and alerting
+- [ ] Document lessons learned
 
 1. Close monitoring of application security metrics and vulnerability scanning
 2. Comprehensive user acceptance testing with representative user groups
@@ -560,15 +708,19 @@ Complete details of all 29 defects, including screenshots, reproduction steps, e
 The following stakeholders have reviewed this report and approve the release recommendation or have noted their concerns:
 
 | Role    | Name    | Approval Date | Signature | Notes    |
-|---|---|---|---|---|
-| QA Lead    | Jackline Cherotich  | November 18, 2025 | [Approved] | Does not recommend release due to critical security and functionality issues |
-| Risk Analyst    | Magret Faith  | November 18, 2025 | [Approved] | Confirms high risk assessment and identifies critical business impacts |
-| Test Executor    | Amobigold Sikirat  | November 18, 2025 | [Approved] | Validates test execution accuracy and defect documentation |
-| Product Owner    | Gerald  | November 18, 2025 | [Pending] | [To be filled] |
-
+|---------|---------|---------------|-----------|-----------|
+| QA Lead | Jackline Cherotich | November 18, 2025 | [Approved] | Does not recommend release due to critical security and functionality issues |
+| Risk Analyst | Magret Faith | November 18, 2025 | [Approved] | Confirms high risk assessment and identifies critical business impacts |
+| Test Executor | Amobigold Sikirat | November 18, 2025 | [Approved] | Validates test execution accuracy and defect documentation |
+| Product Owner | Gerald | November 18, 2025 | [Pending] | [To be filled] |
 
 By signing above, approvers acknowledge they have reviewed this report in its entirety and understand the current state of the application, including any limitations, risks, and mitigation plans.
 
 ---
+
+<div align="center" style="margin-top: 2rem;">
+  <p>🔒 <em>This document contains confidential information and is intended only for the recipients to whom it is addressed.</em> 🔒</p>
+  <p>📝 <em>Copyright 2025 CleanCity Waste Management. All rights reserved.</em> 📝</p>
+</div>
 
 **End of Test Report**
