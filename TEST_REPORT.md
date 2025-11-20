@@ -193,7 +193,7 @@ The following functional areas were thoroughly tested:
   - Issue reporting functionality and categorization
   - User communication flows and response handling
 
-![SonarQube Errors](Images/sonarQube_errors.PNG)
+![SonarQube Errors](Images/sonarQube%20errors.PNG)
 *Figure 3: SonarQube Analysis - Code Quality and Security Issues*
 
 ### 2.2 Non-Functional Testing
@@ -232,8 +232,8 @@ The following non-functional areas were tested:
   - Security vulnerabilities and risk assessment
   - Performance optimization opportunities
 
-![Lighthouse Results](Images/lighthouse_results.PNG)
-*Figure 4: Lighthouse Performance Analysis - 34/100 Score*
+![Lighthouse Results](Images/lighthouse%20defect1.PNG)
+*Figure 4: Lighthouse Performance Analysis - 35/100 Score*
 
 ### 2.3 Areas Not Covered
 
@@ -347,7 +347,7 @@ The testing process followed these phases:
 - **Preconditions**: User not registered in system, clean browser session
 - **Steps**:  
   1. Navigate to application login page  
-  2. Enter unregistered email address (testuser@example.com)  
+  2. Enter unregistered email address (testuser@example)  
   3. Enter any password value  
   4. Click login button
 - **Expected Results**: Login should be rejected with appropriate error message
@@ -355,7 +355,8 @@ The testing process followed these phases:
 - **Status**: ❌ FAIL
 - **Business Impact**: Critical security vulnerability allowing unauthorized access
 
-![Authentication Bypass](https://via.placeholder.com/600x400/ff0000/ffffff?text=AUTHENTICATION+BYPASS:+Login+Successful+With+Invalid+Credentials)
+![Authentication Bypass](Images/email%20validation%20error.PNG)
+*Figure 3: Authentication Bypass - Login Successful With Invalid Credentials*
 
 **Test Case ID: TC-03.1**
 - **Title**: Pickup Visibility After Scheduling
@@ -382,7 +383,8 @@ The testing process followed these phases:
 - **Status**: ❌ FAIL
 - **Business Impact**: Complete mobile usability failure excluding mobile users
 
-![Mobile Navigation Failure](https://via.placeholder.com/600x400/ff9900/ffffff?text=MOBILE+FAILURE:+Navigation+Covers+Entire+Screen)
+![Mobile Navigation Failure](Screenshots/responsive_375x667.png)
+*Figure 4: Mobile Navigation Failure - Navigation Covers Entire Screen*
 
 ---
 
@@ -477,12 +479,7 @@ A total of 31 defects were identified during the testing cycle, categorized by s
    - **Affected Areas**: Registration, scheduling, feedback forms
    - **JIRA**: [CLEANCITYY-85,89,91](https://jackiecherotich.atlassian.net/browse/CLEANCITYY-85)
 
-![Performance Issues](https://via.placeholder.com/600x400/ff5252/ffffff?text=PERFORMANCE+FAILURE:+Lighthouse+34%2F100+-+6.0s+LCP)
-
 ### 4.4 Defect Trend Analysis
-
-![Defect Trend Analysis](https://via.placeholder.com/800x400/6c5ce7/ffffff?text=Defect+Discovery+Trend:+Consistent+High+Severity+Issues+Throughout+Testing)
-
 The defect discovery rate remained consistently high throughout the testing cycle, indicating fundamental quality issues:
 
 - **Week 1**: 19 defects discovered (61% of total)
@@ -518,7 +515,6 @@ The consistent defect discovery, particularly for high and critical severity iss
 - Client-side only authentication
 - No external service integrations
 
-![Application Architecture](https://via.placeholder.com/800x400/a29bfe/ffffff?text=Architecture:+React+Frontend+with+LocalStorage+-+No+Backend+API)
 
 ### 5.2 Client Environments
 
@@ -710,9 +706,6 @@ The following table shows how key requirements were validated through testing:
 | **MOBILE-001** | System shall provide functional mobile experience | TC-10, TC-17, TC-41 | ❌ FAILED |
 | **PERF-001** | Application shall load within 3 seconds on average connection | Lighthouse Metrics | ❌ FAILED |
 | **VALID-001** | System shall validate all user inputs appropriately | TC-01.1, TC-07, TC-15 | ❌ FAILED |
-
-![Requirements Traceability](https://via.placeholder.com/800x400/00b894/ffffff?text=Requirements+Traceability:+0%25+of+Critical+Requirements+Met)
-
 ---
 
 ## 8. Testing Challenges & Lessons Learnt
@@ -787,7 +780,7 @@ graph LR
 ```
 
 **Core Web Vitals Assessment:**
-- **Performance Score**: 34/100 (Poor)
+- **Performance Score**: 35/100 (Poor)
 - **First Contentful Paint**: 4.1 s (Poor)
 - **Largest Contentful Paint**: 6.0 s (Poor)
 - **Total Blocking Time**: 6,460 ms (Poor)
@@ -805,11 +798,13 @@ graph LR
 - **Best Practices**: 96/100 (Good) - Security headers needed
 - **SEO**: 100/100 (Excellent) - Perfect optimization
 
-![Lighthouse Results](https://via.placeholder.com/800x400/ff6b6b/ffffff?text=Lighthouse+Performance:+34%2F100+-+Critical+Performance+Issues)
+![Lighthouse Results](Images/lighthouse%20defect1.PNG)
+*Figure 7: Lighthouse Performance Analysis - 35/100 Score*
 
 ### 9.3 SonarQube Analysis Results
 
-![SonarQube Results](https://via.placeholder.com/800x400/a55eea/ffffff?text=SonarQube+Analysis:+90%2B+Issues+-+1+Critical+Error+%2B+89%2B+Warnings)
+![SonarQube Results](Images/sonarQube%20errors.PNG)
+*Figure 6: SonarQube Analysis Results*
 
 - **Total Issues**: 90+ (1 Error, 89+ Warnings)
 - **Code Smells**: 70+
