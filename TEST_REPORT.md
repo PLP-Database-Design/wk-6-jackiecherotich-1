@@ -12,6 +12,60 @@
 
 ---
 
+![Project Overview](Images/Project_Overview.PNG)
+*Figure 1: The live site of the application*
+
+---
+
+## Table of Contents
+
+- [1. Executive Summary](#1-executive-summary)
+  - [Key Findings](#key-findings)
+  - [Critical Metrics](#critical-metrics)
+- [2. Detailed Test Reports](#2-detailed-test-reports)
+  - [Manual Test & Code Quality Report](#1-manual-test--code-quality-report)
+  - [Selenium Test Report](#2-selenium-test-report)
+  - [Jest Unit Test Report](#3-jest-unit-test-report)
+- [3. Test Objective](#3-test-objective)
+- [4. Areas Covered](#4-areas-covered)
+  - [Functional Testing](#41-functional-testing)
+  - [Non-Functional Testing](#42-non-functional-testing)
+  - [Areas Not Covered](#43-areas-not-covered)
+- [5. Testing Approach](#5-testing-approach)
+  - [Test Strategy](#51-test-strategy)
+  - [Testing Process](#52-testing-process)
+  - [Testing Tools](#53-testing-tools)
+  - [Sample Key Test Cases](#54-sample-key-test-cases)
+- [6. Defect Report](#6-defect-report)
+  - [Defect Summary](#61-defect-summary)
+  - [Critical Defects](#62-critical-defects)
+  - [Open High-Severity Defects](#63-open-high-severity-defects)
+  - [Defect Trend Analysis](#64-defect-trend-analysis)
+- [7. Platform Details](#7-platform-details)
+  - [Test Environment](#71-test-environment)
+  - [Client Environments](#72-client-environments)
+  - [Network Conditions Tested](#73-network-conditions-tested)
+  - [Tools and Frameworks](#74-tools-and-frameworks)
+- [8. Overall Status](#8-overall-status)
+  - [Testing Summary](#81-testing-summary)
+  - [Quality Assessment](#82-quality-assessment)
+  - [Risk Assessment](#83-risk-assessment)
+  - [Release Recommendation](#84-release-recommendation)
+  - [Post-Remediation Activities](#85-post-remediation-activities)
+- [9. Requirements Traceability](#9-requirements-traceability)
+- [10. Testing Challenges & Lessons Learnt](#10-testing-challenges--lessons-learnt)
+  - [Challenges Encountered](#101-challenges-encountered)
+  - [Lessons Learnt](#102-lessons-learnt)
+- [11. Appendices](#11-appendices)
+  - [Test Case Execution Details](#111-test-case-execution-details)
+  - [Performance Test Results](#112-performance-test-results)
+  - [SonarQube Analysis Results](#113-sonarqube-analysis-results)
+  - [Test Data Used](#114-test-data-used)
+  - [Defect Details](#115-defect-details)
+- [12. Approvals](#12-approvals)
+
+---
+
 ## Executive Summary
 
 This report presents the results of comprehensive testing conducted on the CleanCity Waste Pickup Scheduler web application from November 5 to November 18, 2025. The testing focused on validating core functionality, security measures, user experience, and compatibility across platforms.
@@ -28,12 +82,49 @@ This report presents the results of comprehensive testing conducted on the Clean
 ### Critical Metrics:
 - **Test Cases Executed**: 51/55 (92.7% coverage)
 - **Pass Rate**: 10.9% (6/55 test cases)
+
+## Detailed Test Reports
+
+For comprehensive details on specific testing areas, please refer to the following detailed reports:
+
+### 1. Manual Test & Code Quality Report
+- **File**: [MANUAL_TEST.md](./MANUAL_TEST.md)
+- **Scope**: 
+  - Comprehensive manual test cases and results
+  - SonarQube code quality analysis
+  - Security vulnerability assessment
+  - Technical debt analysis
+- **Key Metrics**:
+  - Test Coverage: 92.7%
+  - Code Quality: 91.8% (SonarQube)
+  - Critical Issues: 4 identified
+  - Last Updated: November 20, 2025
+
+### 2. Selenium Test Report
+- **File**: [SELENIUM_REPORT.md](./SELENIUM_REPORT.md)
+- **Scope**: 
+  - Automated UI test results
+  - Cross-browser test coverage
+  - Execution logs and screenshots
+- **Key Features Tested**: 
+  - User registration and login flows
+  - Pickup scheduling functionality
+  - Dashboard interactions
+
+### 3. Jest Unit Test Report
+- **File**: [JEST_README.md](./JEST_README.md)
+- **Scope**: 
+  - Unit and integration test coverage
+  - Component testing
+  - Service layer validation
+- **Coverage**: 91.89% code coverage
+
+> **Note**: All reports are generated based on testing conducted between November 5-20, 2025.
 - **Critical Defects**: 4 (100% unresolved)
 - **High Severity Defects**: 12 (100% unresolved)
 - **Defect Density**: 0.61 defects per test case
 - **Lighthouse Performance**: 34/100 (Critical)
 
-![Project Overview](https://via.placeholder.com/800x400/ff6b6b/ffffff?text=TEST+RESULTS:+10.9%25+PASS+RATE+-+RELEASE+NOT+RECOMMENDED)
 
 ### Recommendation:
 The QA team **DOES NOT RECOMMEND** production release. Critical security vulnerabilities, fundamental functionality failures, severe usability issues, and critical performance problems require immediate remediation and comprehensive retesting before any release consideration.
@@ -56,7 +147,8 @@ The primary objective of this testing cycle was to evaluate the quality, functio
 
 This round of testing was conducted over a two-week period from November 5, 2025, to November 18, 2025, following the development team's feature completion on November 4, 2025.
 
-![Timeline Overview](https://via.placeholder.com/800x300/4ecdc4/ffffff?text=Testing+Period:+November+5-18,+2025+-+2+Weeks)
+![Timeline Overview](Images/Timeline_overview.PNG)
+*Figure 2: Testing Timeline - November 5-18, 2025*
 
 ---
 
@@ -92,7 +184,8 @@ The following functional areas were thoroughly tested:
   - Issue reporting functionality and categorization
   - User communication flows and response handling
 
-![Functional Testing Areas](https://via.placeholder.com/800x400/45b7d1/ffffff?text=Functional+Testing:+Authentication,+Scheduling,+Dashboard,+Feedback)
+![SonarQube Errors](Images/sonarQube_errors.PNG)
+*Figure 3: SonarQube Analysis - Code Quality and Security Issues*
 
 ### 2.2 Non-Functional Testing
 
@@ -106,7 +199,7 @@ The following non-functional areas were tested:
   - XSS vulnerability assessment
 
 - **Performance Testing**
-  - Lighthouse performance auditing (34/100 score)
+  - Lighthouse performance auditing (35/100 score)
   - Core Web Vitals assessment (LCP: 6.0s, TBT: 6,460ms)
   - JavaScript execution time analysis (8.5s)
   - Main-thread workload evaluation (12.8s)
@@ -130,7 +223,8 @@ The following non-functional areas were tested:
   - Security vulnerabilities and risk assessment
   - Performance optimization opportunities
 
-![SonarQube Errors](https://via.placeholder.com/800x400/f9a826/ffffff?text=Security+Testing:+Authentication+Bypass,+XSS+Risks+Identified)
+![Lighthouse Results](Images/lighthouse_results.PNG)
+*Figure 4: Lighthouse Performance Analysis - 34/100 Score*
 
 ### 2.3 Areas Not Covered
 
@@ -365,7 +459,7 @@ A total of 31 defects were identified during the testing cycle, categorized by s
    - **Current Status**: Open, severe user experience impact
    - **Impact**: Poor user experience, high bounce rates, negative SEO impact
    - **Metrics**: LCP 6.0s, TBT 6,460ms, 18 long tasks detected
-   - **JIRA**: [CLEANCITYY-114](https://jackiecherotich.atlassian.net/browse/CLEANCITYY-114)
+   - **JIRA**: [CLEANCITYY-113](https://jackiecherotich.atlassian.net/browse/CLEANCITYY-113)
 
 4. **Form Validation Inconsistencies** (D003, D007, D009)
    - **Description**: Multiple form validation failures including email format acceptance, date validation, input length limits
